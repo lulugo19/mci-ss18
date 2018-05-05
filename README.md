@@ -6,13 +6,27 @@ get all the information from this repo without the need of using Word!**
 
 ## todo
 
-- **Erik:** Stakeholder analysis
+- **Erik:** 
 
-- **Lukas:** User profiles, personas, user stories
+  - [ ] Stakeholder analysis
 
-- **Jonas:** Top level user tasks, hierarchical task analysis
+- **Lukas:** 
 
-- **Hamza/Joey:** Story board
+  - [x] User profiles 
+  
+  - [ ] Personas 
+  
+  - [ ] User stories
+
+- **Jonas:** 
+
+  - [ ] Top level user tasks 
+  
+  - [ ] Hierarchical task analysis
+
+- **Hamza/Joey:** 
+
+  - [ ] Story board
 
 ## content ms1
 
@@ -25,6 +39,12 @@ get all the information from this repo without the need of using Word!**
 ### User stories
 
 ### Top level user tasks
+
+  - lend transponder
+  
+  - give/remove permission
+  
+  - check lender's permission
 
 ### Hierarchical task analysis
 
