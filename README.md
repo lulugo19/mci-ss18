@@ -18,7 +18,7 @@ get all the information from this repo without the need of using Word!**
 
 ### Stakeholder analysis
 
-### User Profiles
+### [User Profiles](https://github.com/lulugo19/mci-ss18/blob/master/UserProfiles.md)
 
 ### Personas
 
