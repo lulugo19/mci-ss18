@@ -8,21 +8,21 @@ get all the information from this repo without the need of using Word!**
 
 - **Erik:** 
 
-  - [ ] Stakeholder analysis
+  - [x] Stakeholder analysis
 
 - **Lukas:** 
 
   - [x] User profiles 
   
-  - [ ] Personas 
+  - [x] Personas 
   
-  - [ ] User stories
+  - [x] User stories
 
 - **Jonas:** 
 
-  - [ ] Top level user tasks 
+  - [x] Top level user tasks 
   
-  - [ ] Hierarchical task analysis
+  - [x] Hierarchical task analysis
 
 - **Hamza/Joey:** 
 
@@ -30,13 +30,13 @@ get all the information from this repo without the need of using Word!**
 
 ## content ms1
 
-### Stakeholder analysis
+### [Stakeholder analysis](https://github.com/lulugo19/mci-ss18/blob/master/ms1/Steakholderanalysis.md)
 
 ### [User Profiles](https://github.com/lulugo19/mci-ss18/blob/master/ms1/UserProfiles.md)
 
 ### [Personas](https://github.com/lulugo19/mci-ss18/blob/master/ms1/Personas.md)
 
-### User stories
+### User stories(https://github.com/lulugo19/mci-ss18/blob/master/ms1/UserStories.md)
 
 ### Top level user tasks
 
