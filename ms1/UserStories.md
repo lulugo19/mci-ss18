@@ -1,4 +1,4 @@
-# User Storys
+# User Stories
 
 ## for the gatekeeper
 1. As a gatekeeper, I can check the availability of a specific transponders, so that I can give the person, who wants to lend the
