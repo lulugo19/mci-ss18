@@ -14,7 +14,7 @@ so he can concentrate on more important aspects of his work.
 
 Andreas wants:
 - to look up permissions for transponders and the availability of transponders uncomplicated and fast 
-- he don't want to manage the permission lists by hand
+- he doesn't want to manage the permission lists by hand
 - he wants a system that is less error-prone and let him quickly lend transponders to people
 
 ## Prof. Dr. Siegelbud
