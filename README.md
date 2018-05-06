@@ -34,7 +34,7 @@ get all the information from this repo without the need of using Word!**
 
 ### [User Profiles](https://github.com/lulugo19/mci-ss18/blob/master/ms1/UserProfiles.md)
 
-### Personas
+### [Personas](https://github.com/lulugo19/mci-ss18/blob/master/ms1/Personas.md)
 
 ### User stories
 
