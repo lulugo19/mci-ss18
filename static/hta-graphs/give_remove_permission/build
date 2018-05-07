@@ -1,0 +1,2 @@
+latex $1
+dvisvgm -b 250 $1
