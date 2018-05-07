@@ -40,35 +40,35 @@ get all the information from this repo without the need of using Word!**
 
   - [ ] correction of spelling mistakes and grammatical errors
 
-## [ ] ms2
+## ms2
 
-### [ ] corrections ms1
+### corrections ms1
 
-[ ] **Nutzermodellierung:** add reference to interview and it's context
+- [ ] **Nutzermodellierung:** add reference to interview and it's context
 
-[ ] **All:** description for each topic describing what it is, it's context and what we
-    want to achieve with it (bevore the content)
+- [ ] **All:** description for each topic describing what it is, it's context and what we
+      want to achieve with it (bevore the content)
 
-[ ] **All:** conclusion for each topic what information we really gained from it
+- [ ] **All:** conclusion for each topic what information we really gained from it
 
-[ ] **All:** **WHY!!!** discribe everything
+- [ ] **All:** **WHY!!!** discribe everything
 
-[ ] **Stakeholder Analysis:** more information about the influence of each stakeholder
+- [ ] **Stakeholder Analysis:** more information about the influence of each stakeholder
 
-[ ] **Stakeholder Analysis/User Profiles:** antiuser staff from headquarter (?),
+- [ ] **Stakeholder Analysis/User Profiles:** antiuser staff from headquarter (?),
     students/profs/externs -> lenders
 
-[ ] **Personas:** more inforation about the influence of each persona and what their goals are
+- [ ] **Personas:** more inforation about the influence of each persona and what their goals are
 
-[ ] **User Stories:** more user stories (> 20)
+- [ ] **User Stories:** more user stories (> 20)
 
-[ ] **Top Level User Tasks:** every user story should be possible within the top level user tasks
+- [ ] **Top Level User Tasks:** every user story should be possible within the top level user tasks
 
-[ ] **Hierarchical Task Analysis:** as graph, explanation about why NFC
+- [ ] **Hierarchical Task Analysis:** as graph, explanation about why NFC
 
-[ ] **HTA/Storyboard:** description of each HTA/story
+- [ ] **HTA/Storyboard:** description of each HTA/story
 
-## [x] ms1
+## ms1
 
 ### [Stakeholder analysis](https://github.com/lulugo19/mci-ss18/blob/master/ms1/Steakholderanalysis.md)
 
