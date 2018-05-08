@@ -1,8 +1,11 @@
 # mci-ss18
 
-**Please fill this readme or another Markdown file with your content first, 
+- **Please fill this readme or another Markdown file with your content first, 
 before we work on the document. That makes collaboration easier and we can 
 get all the information from this repo without the need of using Word!**
+
+- **Corrections for the last milestone are done inside the current milestone
+  folder!**
 
 ## todo
 
