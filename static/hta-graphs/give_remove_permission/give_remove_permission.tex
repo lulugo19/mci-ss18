@@ -28,95 +28,75 @@
     text width=2cm,
     minimum height=3cm
   ] at (0,-1)
-  {0. lend transponder}
-    % 0.1. {{{
+  {1. give/remove permission}
+    % 1.1. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.1. visit gate staffs' office}
+      {1.1. open system's management-tool in webbrowser}
     }
     % }}}
-    % 0.2. {{{
+    % 1.2. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.2. ask for tranponder/room number}
+      {1.2. login}
     }
     % }}}
-    % 0.3. {{{
+    % 1.3. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.3. identify yourself}
-        % 0.3.1. {{{
+      {1.3. search transponder's number or room number}
+    }
+    % }}}
+    % 1.4. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {1.4. give/remove permission}
+        % 1.4.1. {{{
         child {
           node[
             draw,
             text width=2cm,
             minimum height=3cm
           ]
-          {0.3.1. show Multica}
+          {1.4.1. make entry specifiing lender's matrikelnumber and name}
         }
         % }}}
-        % 0.3.2. {{{
+        % 1.4.2. {{{
         child {
           node[
             draw,
             text width=2cm,
             minimum height=3cm
           ]
-          {0.3.2. show ID and tell matrikelnumber}
-        };
+          {1.4.2. remove entry with lender's information}
+        }
         % }}}
     }
     % }}}
-    % 0.4. {{{
+    % 1.5. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.4. sign on pad}
-    }
-    % }}}
-    % 0.5. {{{
-    child {
-      node[
-        draw,
-        text width=2cm,
-        minimum height=3cm
-      ]
-      {0.5. take transponder}
-    }
-    % }}}
-    % 0.6. {{{
-    child {
-      node[
-        draw,
-        text width=2cm,
-        minimum height=3cm
-      ]
-      {0.6. go to room and open it}
-    }
-    % }}}
-    % 0.7. {{{
-    child {
-      node[
-        draw,
-        text width=2cm,
-        minimum height=3cm
-      ]
-      {0.7. when leaving close room's door and give back transponder}
+      {1.5. confirm update}
     };
     % }}}
 

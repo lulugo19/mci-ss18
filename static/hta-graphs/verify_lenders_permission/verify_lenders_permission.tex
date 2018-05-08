@@ -21,102 +21,132 @@
 
 \begin{document}
 \textcolor{white}{workaround}
-\begin{tikzpicture}[sibling distance=3cm, level distance=8cm]
+\begin{tikzpicture}[sibling distance=3cm, level distance=12cm]
 
   \node[
     draw,
     text width=2cm,
     minimum height=3cm
   ] at (0,-1)
-  {0. lend transponder}
-    % 0.1. {{{
+  {2. verify lender's permission}
+    % 2.1. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.1. visit gate staffs' office}
+      {2.1. open system's management-tool in webbrowser}
     }
     % }}}
-    % 0.2. {{{
+    % 2.2. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.2. ask for tranponder/room number}
+      {2.2. login}
     }
     % }}}
-    % 0.3. {{{
+    % 2.3. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.3. identify yourself}
-        % 0.3.1. {{{
-        child {
-          node[
-            draw,
-            text width=2cm,
-            minimum height=3cm
-          ]
-          {0.3.1. show Multica}
-        }
-        % }}}
-        % 0.3.2. {{{
-        child {
-          node[
-            draw,
-            text width=2cm,
-            minimum height=3cm
-          ]
-          {0.3.2. show ID and tell matrikelnumber}
-        };
-        % }}}
+      {2.3. let lender specify transponder's number or room number}
     }
     % }}}
-    % 0.4. {{{
+    % 2.4. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.4. sign on pad}
+      {2.4. search for transponder's number or room number}
     }
     % }}}
-    % 0.5. {{{
+    % 2.5. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.5. take transponder}
+      {2.5. check if transponder is currently available}
     }
     % }}}
-    % 0.6. {{{
+    % 2.6. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.6. go to room and open it}
+      {2.6. verify lender's authentication}
+      % 2.6.1. {{{
+      child {
+        node[
+          draw,
+          text width=2cm,
+          minimum height=3cm
+        ]
+        {2.6.1. check entries for lender's matrikelnumber}
+      }
+      % }}}
+      % 2.6.2. {{{
+      child {
+        node[
+          draw,
+          text width=2cm,
+          minimum height=3cm
+        ]
+        {2.6.2. check entries for lender's name and verify matrikelnumber}
+      }
+      % }}}
     }
     % }}}
-    % 0.7. {{{
+    % 2.7. {{{
     child {
       node[
         draw,
         text width=2cm,
         minimum height=3cm
       ]
-      {0.7. when leaving close room's door and give back transponder}
+      {2.7. reject lender}
+    }
+    % }}}
+    % 2.8. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.8. set transponder's status to unavailable (with NFC-reader)}
+    }
+    % }}}
+    % 2.9. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.9. let lender sign for transponder}
+    }
+    % }}}
+    % 2.10. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.10. give transponder to lender}
     };
     % }}}
 
