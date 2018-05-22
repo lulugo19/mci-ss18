@@ -89,3 +89,7 @@ his browser.
 
 The Hierarchical Task Analysis gave us a great entry point and some insights to how 
 our application could be structured (it's components, interfaces, hardware, technologies, etc.).
+
+## Revision
+
+Added descriptions and a conclusion.
