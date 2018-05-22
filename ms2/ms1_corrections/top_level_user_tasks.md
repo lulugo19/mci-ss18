@@ -16,6 +16,8 @@ Analysis.
   - verify lender's permission
   
   - (?) check for available transponder
+  
+  - (?) check if I have permission to room/transponder
 
 ## Conclusion
 
