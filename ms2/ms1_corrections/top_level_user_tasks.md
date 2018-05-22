@@ -24,3 +24,7 @@ Story possible to accomplish.
 
 This list is a very raw representation of our users' tasks, but gives us a
 great starting point for our Hierarchical Task Analysis.
+
+## Revision
+
+Added description and conclusion.
