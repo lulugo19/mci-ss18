@@ -69,7 +69,7 @@ get all the information from this repo without the need of using Word!**
 
 - [ ] **Top Level User Tasks:** every user story should be possible within the top level user tasks
 
-- [ ] **Hierarchical Task Analysis:** as graph, explanation about why NFC
+- [x] **Hierarchical Task Analysis:** as graph, explanation about why NFC
 
 - [ ] **HTA/Storyboard:** description of each HTA/story
 
