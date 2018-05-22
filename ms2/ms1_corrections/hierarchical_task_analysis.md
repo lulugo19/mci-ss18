@@ -1,6 +1,13 @@
 # Hierarchical Task Analysis
 
-[[ description here ]]
+## Description
+
+Our Top Level User Tasks decomposed in smaller, hierarchical tasks/subtasks and actions a user will perform
+using our application. Furthermore it allows us to specify plans, which helps us to model state (e.g. transponder
+not available, lender has no permission), conditions (e.g. only if lender has permission he can lend a transponder,
+else the gatekeeper resents the request) and descisions (e.g. lender decides to use his/her Multica as identification),
+which should make it easier to implement the different tasks/subtasks in a safe and useful manner later in the
+development proccess.
 
 ## 0. lend transponder
 
@@ -25,7 +32,8 @@ use.
 
 ### Description
 
-[[ description here ]]
+If a person in charge of a room or transponder wants to give/take permission to/from a lender he/she
+has to complete this task. 
 
 ## 2. verify lender's permission
 
@@ -41,21 +49,20 @@ use.
 
 ### Description
 
-!!!!! NOT DONE !!!!!
 This task is done by a member of the gatekeeping staff. 
 It basically runs parallel to the lender's task "0. lend transponder".
 
 Since one of our main goals is to keep the university's property safe,
 this task of verification is utterly important. We can not allow that somebody
-not allowed, unverified or without the system's/the person in charge of the room's 
-knowledge gains access.
+permissionless, unverified or without the system's/the person in charge of the room's 
+knowledge gains access to a room.
 
 This is the reason why every lending process gets protocolled, so we can always 
-keep track of who has a transponder. Now, if some damage gets reported, we always
-know who had access during the time period the damage was done.
+keep track of who has and has had a transponder. Now, if some damage gets reported, we always
+know who had access during the aproximate time period the damage was done.
 
 We want to automate every task as much as possible and make the task for
-every user as seamless as possible, so we thought it would be easiest if we
+every user as seamless as possible, too, so we thought it would be easiest if we
 would introduce NFC (Near-Field Communication) to this particular task.
 
 We want a NFC-reading device connected to the workstation the gatekeeper uses,
@@ -64,19 +71,21 @@ Now, if the gatekeeper hands out the transponder, he/she just has to hold it
 against the NFC-reading device and our app knows which transponder was just
 lent. If the lender used his Multica to identify himself he used the
 same NFC-reading device, so our app can combine these two information and
-we know which user lent the transponder. The gatekeeper doesn't have to
-do anything.
+we know which user lent the transponder. The gatekeeper doesn't has to
+make interactions with our application interface that could lead to errors,
+for example giving out a different transponder than the one selected in the
+application.
 
 If the lender used his ID for identification, the gatekeeper presses a
 button on his interface which tells the app who is the lender. After that
 he holds the transponder against the NFC-reading device and the the app
 knows which transponder was lent. 
 
-We think this is easier and faster than the gatekeeper having to always 
-manually
+We think this is easier, faster and safer than the gatekeeper having to always 
+manually specify the transponder in his application interface opened in 
+his browser.
 
-After this, when the user signs on the tablet device, our app can comb
+## Conclusion
 
-[[ description here ]]
-
-[[ conclusion here ]]
+The Hierarchical Task Analysis gave us a great entry point and some insights to how 
+our application could be structured (it's components, interfaces, hardware, technologies, etc.).
