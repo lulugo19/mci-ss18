@@ -5,7 +5,8 @@
 The Top Level User Tasks should give us a comprehensive insight into
 the main tasks our users will try to fullfill when using our application. 
 Each Top Level User Task represents the root of a task tree in the 
-Hierarchical Task Analysis.
+Hierarchical Task Analysis. All tasks combined should make every User
+Story possible to accomplish.
 
 ## Top level user tasks
 
