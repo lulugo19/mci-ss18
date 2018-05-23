@@ -16,9 +16,11 @@ Story possible to accomplish.
   
   - verify lender's permission
   
-  - (?) check for available transponder
+  - check for available transponder
   
-  - (?) check if I have permission to room/transponder
+  - check if I have permission to room/transponder
+  
+  - ask for permission
 
 ## Conclusion
 
