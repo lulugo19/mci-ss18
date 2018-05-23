@@ -1,0 +1,103 @@
+\documentclass[dvisvgm]{standalone}
+
+% Graphiken
+\usepackage{tikz}
+
+% TikZ Bibliotheken
+\usetikzlibrary{
+    arrows,
+    arrows.meta,
+    decorations,
+    backgrounds,
+    positioning,
+    fit,
+    petri,
+    shadows,
+    datavisualization.formats.functions,
+    calc,
+    shapes,
+    shapes.multipart
+}
+
+\begin{document}
+\textcolor{white}{workaround}
+\begin{tikzpicture}[sibling distance=3cm, level distance=8cm]
+
+  \node[
+    draw,
+    text width=2cm,
+    minimum height=3cm
+  ] at (0,-1)
+  {5. ask for permission}
+    % 5.1. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {5.1. open system's mobile app}
+    }
+    % }}}
+    % 5.2. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {5.2. login}
+    }
+    % }}}
+    % 5.3. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {5.3. search for room number or transponder number}
+    }
+    % }}}
+    % 5.4. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {5.4. select room or transponder and send request}
+    }
+    % 5.5. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {5.5. get response}
+        % 5.5.1. {{{
+        child {
+          node[
+            draw,
+            text width=2cm,
+            minimum height=3cm
+          ]
+          {5.5.1. get permission}
+        }
+        % }}}
+        % 5.5.2. {{{
+        child {
+          node[
+            draw,
+            text width=2cm,
+            minimum height=3cm
+          ]
+          {5.5.2. get permission refused message}
+        }
+        % }}}
+    };
+    % }}}
+
+\end{tikzpicture}
+\end{document}
