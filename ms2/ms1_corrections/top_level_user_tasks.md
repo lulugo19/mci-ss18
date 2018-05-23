@@ -29,4 +29,4 @@ great starting point for our Hierarchical Task Analysis.
 
 ## Revision
 
-Added description and conclusion.
+Added description and conclusion, added tasks 3 - 5.
