@@ -9,7 +9,7 @@ else the gatekeeper resents the request) and descisions (e.g. lender decides to 
 which should make it easier to implement the different tasks/subtasks in a safe and useful manner later in the
 development proccess.
 
-## 0. lend transponder
+## 0. Lend transponder
 
 **graph in ../../static/hta-graphs/lend_transponder**
 
@@ -22,7 +22,7 @@ development proccess.
 The main task a lender does. He/she wants to use this system to gain access to a room he/she has permission to
 use. 
 
-## 1. give/remove permission
+## 1. Give/remove permission
 
 **graph in ../../static/hta-graphs/give_remove_permission**
 
@@ -35,7 +35,7 @@ use.
 If a person in charge of a room or transponder wants to give/take permission to/from a lender he/she
 has to complete this task. 
 
-## 2. verify lender's permission
+## 2. Verify lender's permission
 
 **graph in ../../static/hta-graphs/verify_lenders_permission**
 
@@ -85,6 +85,44 @@ We think this is easier, faster and safer than the gatekeeper having to always
 manually specify the transponder in his application interface opened in 
 his browser.
 
+## 3. Check for avaiable transponder
+
+**graph in ../../static/hta-graphs/cfat**
+
+**Plan 3.4:** do 3.1-3.3. If transponder is available continue with 3.4, else continue with 3.5.
+
+### Description
+
+A lender can check if his desired transponder or a transponder to his desired
+room is available using our mobile application. The lender can look up his
+permissions and filter them. Since our system knows all the time if a transponder
+is available or not, it can give the lender this information.
+
+## 4. Check if I have permission to room/transponder
+
+**graph in ../../static/hta-graphs/cptrpt**
+
+### Description
+
+In case a lender wants to check if he has permission to a room or transponder. 
+Furthermore he can see when his permisson expires.
+
+## 5. Ask for permission
+
+**graph in ../../static/hta-graphs/ask_for_permission**
+
+**Plan 5.5.1:** do 5.1-5.4. If permission is granted continue with 5.5.1.
+
+**Plan 5.5.2:** do 5.1-5.4. If permission is refused continue with 5.5.2.
+
+### Description
+
+A lender can use our application for making permission requests. That means he/she can 
+look up a room or transponder and ask for a permission, which the person in charge
+of this room or transponder can either grant or refuse. Either way the lender gets informed
+by our application about whether the request is granted or refused.
+
+
 ## Conclusion
 
 The Hierarchical Task Analysis gave us a great entry point and some insights to how 
@@ -92,4 +130,4 @@ our application could be structured (it's components, interfaces, hardware, tech
 
 ## Revision
 
-Added descriptions and a conclusion.
+Added descriptions and a conclusion, added tasks 3 - 5.
