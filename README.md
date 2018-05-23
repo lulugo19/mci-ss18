@@ -31,7 +31,7 @@ get all the information from this repo without the need of using Word!**
   
   - [x] Hierarchical task analysis
 
-  - [ ] corrections ms1
+  - [x] corrections ms1
 
 - **Joey:** 
 
@@ -67,7 +67,7 @@ get all the information from this repo without the need of using Word!**
 
 - [ ] **User Stories:** more user stories (> 20)
 
-- [ ] **Top Level User Tasks:** every user story should be possible within the top level user tasks
+- [x] **Top Level User Tasks:** every user story should be possible within the top level user tasks
 
 - [x] **Hierarchical Task Analysis:** as graph, explanation about why NFC
 
