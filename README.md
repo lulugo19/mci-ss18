@@ -41,9 +41,9 @@ get all the information from this repo without the need of using Word!**
 
 - **Hamza:**
 
-  - [ ] correction of spelling mistakes and grammatical errors
+  - [x] correction of spelling mistakes and grammatical errors
   
-  - [ ] assemble Word document from Markdown/static files
+  - [x] assemble Word document from Markdown/static files
 
 ## ms2
 
