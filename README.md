@@ -9,58 +9,66 @@ get all the information from this repo without the need of using Word!**
 
 ## todo
 
+**current phase: correct ms2**
+
+**Deadline: 06.06.18**
+
 - **Erik:** 
 
-  - [x] Stakeholder analysis
-
-  - [ ] corrections ms1 
+  - [ ] add steakholder interview in the appendix
 
 - **Lukas:** 
-
-  - [x] User profiles 
   
-  - [x] Personas 
-  
-  - [x] User stories
+  - [ ] rework user stories (Ist-Zustand, no references to the system and no technical limitations)
 
-  - [ ] corrections ms1
+  - [ ] wireframe descriptions and reason design decisions
+  
+  - [ ] add reference to the videos
+  
+  - [ ] finish results of paperprototyping
+  
 
 - **Jonas:** 
 
-  - [x] Top level user tasks 
+  - [ ] Hierarchical task analysis current state "Ist-HTA" and target state "Soll-HTA"
   
-  - [x] Hierarchical task analysis
+  - [ ] popup gatekeeper interface: lent successfully / error
 
-  - [x] corrections ms1
 
 - **Joey:** 
 
-  - [x] Story board
+  - [ ] Story board: add lender interface and and professor interface (consisteny with wireframes)
 
-  - [ ] corrections ms1
+  - [ ] Story board: add explanation for each story board and conclusion
 
 - **Hamza:**
+  - [ ] correction of spelling mistakes and grammatical errors
+  - [ ] professor wireframe: for the first screen instead of the registration screen the login screen
 
-  - [x] correction of spelling mistakes and grammatical errors
-  
-  - [x] assemble Word document from Markdown/static files
+## ms3
+
+**date of delivery: 25.07.2018**
+
+- [ ] **All:** check for inconsitencies 
+- [ ] **All:** correct ms2 (current phase)
+- [ ] **All:** implement prototype (next phase, *but can already start*)
 
 ## ms2
 
 ### corrections ms1
 
-- [ ] **Nutzermodellierung:** add reference to interview and it's context
+- [x] **Nutzermodellierung:** add reference to interview and it's context
 
-- [ ] **All:** description for each topic describing what it is, it's context and what we
-      want to achieve with it (bevore the content)
+- [x] **All:** description for each topic describing what it is, it's context and what we
+      want to achieve with it (before the content)
 
-- [ ] **All:** conclusion for each topic what information we really gained from it
+- [x] **All:** conclusion for each topic what information we really gained from it
 
-- [ ] **All:** **WHY!!!** discribe everything
+- [x] **All:** **WHY!!!** discribe everything
 
 - [ ] **Stakeholder Analysis:** more information about the influence of each stakeholder
 
-- [ ] **Stakeholder Analysis/User Profiles:** antiuser staff from headquarter (?),
+- [x] **Stakeholder Analysis/User Profiles:** antiuser staff from headquarter (?),
     students/profs/externs -> lenders
 
 - [ ] **Personas:** more inforation about the influence of each persona and what their goals are
@@ -71,7 +79,7 @@ get all the information from this repo without the need of using Word!**
 
 - [x] **Hierarchical Task Analysis:** as graph, explanation about why NFC
 
-- [ ] **HTA/Storyboard:** description of each HTA/story
+- [x] **HTA/Storyboard:** description of each HTA/story
 
 ## ms1
 
