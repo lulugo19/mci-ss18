@@ -43,6 +43,7 @@ get all the information from this repo without the need of using Word!**
 
 - **Hamza:**
   - [ ] correction of spelling mistakes and grammatical errors
+  
   - [ ] professor wireframe: for the first screen instead of the registration screen the login screen
 
 ## ms3
@@ -50,7 +51,9 @@ get all the information from this repo without the need of using Word!**
 **date of delivery: 25.07.2018**
 
 - [ ] **All:** check for inconsitencies 
+
 - [ ] **All:** correct ms2 (current phase)
+
 - [ ] **All:** implement prototype (next phase, *but can already start*)
 
 ## ms2
