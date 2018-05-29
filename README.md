@@ -34,7 +34,13 @@ get all the information from this repo without the need of using Word!**
   
   - [ ] popup gatekeeper interface: lent successfully / error **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] gatekepper interface: add description
+  - [ ] gatekeeper interface: more labels for each result.
+  
+  - [ ] gatekeeper interface: change time since lent to time till return deadline / overdue time
+  
+  - [ ] gatekeeper interface: warning popup if lender has transponder overdue to the return deadline
+  
+  - [ ] gatekeeper interface: add description
 
 
 - **Joey:** 
