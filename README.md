@@ -30,21 +30,32 @@ get all the information from this repo without the need of using Word!**
 
 - **Jonas:** 
 
-  - [ ] Hierarchical task analysis current state "Ist-HTA" and target state "Soll-HTA"
+  - [ ] Hierarchical task analysis add current states to target states
   
-  - [ ] popup gatekeeper interface: lent successfully / error
+  - [ ] popup gatekeeper interface: lent successfully / error **CORRECTIONS IN MS3 PROTOTYPE**
+  
+  - [ ] gatekepper interface: add description
 
 
 - **Joey:** 
 
-  - [ ] Story board: add lender interface and and professor interface (consisteny with wireframes)
+  - [ ] Storyboard: add missing HTAs (target-state)
 
   - [ ] Story board: add explanation for each story board and conclusion
 
+  - [ ] Paperprototype: viedos to YouTube and link in the document instead of picture
+
 - **Hamza:**
-  - [ ] correction of spelling mistakes and grammatical errors
   
-  - [ ] professor wireframe: for the first screen instead of the registration screen the login screen
+  - [ ] correction of spelling mistakes and grammatical errors (whole document)
+  
+  - [ ] professor wireframe: for the first screen instead of the registration screen the login screen 
+        **CORRECTIONS IN MS3 PROTOTYPE**
+  
+  - [ ] professor wireframe/interface: state 5 Permission detail view: there should be text labels
+        containing data instead of text input fields **CORRECTIONS IN MS3 PROTOTYPE** 
+
+  - [ ] wireframes/interfaces: add description
 
 ## ms3
 
@@ -56,46 +67,8 @@ get all the information from this repo without the need of using Word!**
 
 - [ ] **All:** implement prototype (next phase, *but can already start*)
 
-## ms2
-
-### corrections ms1
-
-- [x] **Nutzermodellierung:** add reference to interview and it's context
-
-- [x] **All:** description for each topic describing what it is, it's context and what we
-      want to achieve with it (before the content)
-
-- [x] **All:** conclusion for each topic what information we really gained from it
-
-- [x] **All:** **WHY!!!** discribe everything
-
-- [ ] **Stakeholder Analysis:** more information about the influence of each stakeholder
-
-- [x] **Stakeholder Analysis/User Profiles:** antiuser staff from headquarter (?),
-    students/profs/externs -> lenders
-
-- [ ] **Personas:** more inforation about the influence of each persona and what their goals are
-
-- [ ] **User Stories:** more user stories (> 20)
-
-- [x] **Top Level User Tasks:** every user story should be possible within the top level user tasks
-
-- [x] **Hierarchical Task Analysis:** as graph, explanation about why NFC
-
-- [x] **HTA/Storyboard:** description of each HTA/story
-
-## ms1
-
-### [Stakeholder analysis](https://github.com/lulugo19/mci-ss18/blob/master/ms1/Steakholderanalysis.md)
-
-### [User Profiles](https://github.com/lulugo19/mci-ss18/blob/master/ms1/UserProfiles.md)
-
-### [Personas](https://github.com/lulugo19/mci-ss18/blob/master/ms1/Personas.md)
-
-### [User stories](https://github.com/lulugo19/mci-ss18/blob/master/ms1/UserStories.md)
-
-### [Top level user tasks](https://github.com/lulugo19/mci-ss18/blob/master/ms1/top_level_user_tasks.md)
-
-### [Hierarchical task analysis](https://github.com/lulugo19/mci-ss18/blob/master/ms1/hierarchical_task_analysis.md)
-
-### Story board
+- [ ] **All:** prototype should contain corrections from the milestone appointment (marked in this
+               document with **CORRECTIONS IN MS3 PROTOTYPE**) and the info we gained from the 
+               videos from the paperprototype. That means our wireframes should not be corrected,
+               instead we should do the corrections directly in the prototype.
+               
