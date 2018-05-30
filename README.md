@@ -30,17 +30,19 @@ get all the information from this repo without the need of using Word!**
 
 - **Jonas:** 
 
-  - [ ] Hierarchical task analysis add current states to target states
+  - [x] Hierarchical task analysis add current states to target states
   
   - [ ] popup gatekeeper interface: lent successfully / error **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] gatekeeper interface: more labels for each result.
+  - [ ] gatekeeper interface: more labels for each result. **CORRECTIONS IN MS3 PROTOTYPE**
   
   - [ ] gatekeeper interface: change time since lent to time till return deadline / overdue time
+        **CORRECTIONS IN MS3 PROTOTYPE**
   
   - [ ] gatekeeper interface: warning popup if lender has transponder overdue to the return deadline
+        **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] gatekeeper interface: add description
+  - [x] gatekeeper interface: add description
 
 
 - **Joey:** 
