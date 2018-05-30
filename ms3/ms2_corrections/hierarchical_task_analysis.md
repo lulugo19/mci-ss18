@@ -2,42 +2,88 @@
 
 ## Description
 
-Our Top Level User Tasks decomposed in smaller, hierarchical tasks/subtasks and actions a user will perform
-using our application. Furthermore it allows us to specify plans, which helps us to model state (e.g. transponder
-not available, lender has no permission), conditions (e.g. only if lender has permission he can lend a transponder,
-else the gatekeeper resents the request) and descisions (e.g. lender decides to use his/her Multica as identification),
-which should make it easier to implement the different tasks/subtasks in a safe and useful manner later in the
-development proccess.
+Our Top Level User Tasks decomposed in smaller, hierarchical tasks/subtasks and actions a user currently performs/will 
+perform using the current system based on paper sheets/our application. 
+
+We made graphs for both, the current state (application based on paper sheets) and our target state (automated application)
+of how tasks are done.
+
+We found that using the Hierarchical Task Analysis outside of it's supposed use case (only modelling the current state of
+how tasks are done) was very insightful for us, because it allowed us to specify plans, which helps us to model state (e.g.
+transponder not available, lender has no permission), conditions (e.g. only if lender has permission he can lend a 
+transponder, else the gatekeeper resents the request) and descisions (e.g. lender decides to use his/her Multica as
+identification), which should make it easier to implement the different tasks/subtasks in a safe and useful manner later 
+in the development proccess.
+
+
+
 
 ## 0. Lend transponder
 
-**graph in ../../static/hta-graphs/lend_transponder**
 
-**Plan 0.3.1:** do 0.1-0.2. If you choose to identify with your Multica do 0.3.1 and continue with 0.4.
+### Current state
+
+<img src="../../static/hta-graphs/lend_transponder_cur/lend_transponder_cur.svg">
+
+**Plan 0.3.1 current:** do 0.1-0.2. If you choose to identify with your Multica do 0.3.1 and continue with 0.4.
   
-**Plan 0.3.2:** do 0.1-0.2. If you choose to identify with your ID do 0.3.2 and continue with 0.4.
+**Plan 0.3.2 current:** do 0.1-0.2. If you choose to identify with your ID do 0.3.2 and continue with 0.4.
+
+
+### Target state
+
+<img src="../../static/hta-graphs/lend_transponder/lend_transponder.svg">
+
+**Plan 0.3.1 target:** do 0.1-0.2. If you choose to identify with your Multica do 0.3.1 and continue with 0.4.
+  
+**Plan 0.3.2 target:** do 0.1-0.2. If you choose to identify with your ID do 0.3.2 and continue with 0.4.
+
 
 ### Description
 
 The main task a lender does. He/she wants to use this system to gain access to a room he/she has permission to
 use. 
 
+
+
+
+
 ## 1. Give/remove permission
 
-**graph in ../../static/hta-graphs/give_remove_permission**
+
+### Current state
+
+<img src="../../static/hta-graphs/give_remove_permission_cur/give_remove_permission_cur.svg">
+
+
+### Target state
+
+<img src="../../static/hta-graphs/give_remove_permission/give_remove_permission.svg">
 
 **Plan 1.4.1:** do 1.1-1.3. If you want to give permission do 1.4.1 and continue with 1.5.
   
 **Plan 1.4.2:** do 1.1-1.3. If you want to remove permission do 1.4.2 and continue with 1.5.
+
 
 ### Description
 
 If a person in charge of a room or transponder wants to give/take permission to/from a lender he/she
 has to complete this task. 
 
+
+
+
 ## 2. Verify lender's permission
 
-**graph in ../../static/hta-graphs/verify_lenders_permission**
+
+### Current state
+
+<img src="../../static/hta-graphs/verify_lenders_permission_cur/verify_lenders_permission_cur.svg">
+
+
+### Target state
+
+<img src="../../static/hta-graphs/verify_lenders_permission/verify_lenders_permission.svg">
 
 **Plan 2.5.1:** do 2.1-2.5. If transponder is available continue with 2.6.
   
@@ -46,6 +92,7 @@ has to complete this task.
 **Plan 2.6.1:** do 2.1-2.5. If the lender uses his Multica as identification do 2.6.1 and continue with 2.8.
   
 **Plan 2.6.2:** do 2.1-2.5. If the lender uses his ID as identification do 2.6.2 and continue with 2.8.
+
 
 ### Description
 
@@ -85,11 +132,26 @@ We think this is easier, faster and safer than the gatekeeper having to always
 manually specify the transponder in his application interface opened in 
 his browser.
 
+
+
+
+
 ## 3. Check for avaiable transponder
+
+
+### Current state
+
+<img src="../../static/hta-graphs/cfat_cur/cfat_cur.svg">
+
+
+### Target state
+
+<img src="../../static/hta-graphs/cfat/cfat.svg">
 
 **graph in ../../static/hta-graphs/cfat**
 
 **Plan 3.4:** do 3.1-3.3. If transponder is available continue with 3.4, else continue with 3.5.
+
 
 ### Description
 
@@ -98,22 +160,46 @@ room is available using our mobile application. The lender can look up his
 permissions and filter them. Since our system knows all the time if a transponder
 is available or not, it can give the lender this information.
 
+
+
+
 ## 4. Check if I have permission to room/transponder
 
-**graph in ../../static/hta-graphs/cptrpt**
+
+### Current state
+
+<img src="../../static/hta-graphs/cptrpt_cur/cptrpt_cur.svg">
+
+
+### Target state
+
+<img src="../../static/hta-graphs/cptrpt/cptrpt.svg">
+
 
 ### Description
 
 In case a lender wants to check if he has permission to a room or transponder. 
 Furthermore he can see when his permisson expires.
 
+
+
+
 ## 5. Ask for permission
 
-**graph in ../../static/hta-graphs/ask_for_permission**
+
+### Current state
+
+<img src="../../static/hta-graphs/ask_for_permission_cur/ask_for_permission_cur.svg">
+
+
+### Target state
+
+<img src="../../static/hta-graphs/ask_for_permission/ask_for_permission.svg">
 
 **Plan 5.5.1:** do 5.1-5.4. If permission is granted continue with 5.5.1.
 
 **Plan 5.5.2:** do 5.1-5.4. If permission is refused continue with 5.5.2.
+
 
 ### Description
 
@@ -123,14 +209,20 @@ of this room or transponder can either grant or refuse. Either way the lender ge
 by our application about whether the request is granted or refused.
 
 
+
+
 ## Conclusion
 
 The Hierarchical Task Analysis gave us a great entry point and some insights to how 
 our application could be structured (it's components, interfaces, hardware, technologies, etc.).
 
+
+
+
 ## Revision
 
 - Added descriptions and a conclusion
 
-- Added tasks 3 - 5.
+- Added tasks 3 - 5
 
+- Added current state 
