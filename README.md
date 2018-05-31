@@ -30,19 +30,17 @@ get all the information from this repo without the need of using Word!**
 
 - **Jonas:** 
 
-  - [x] Hierarchical task analysis add current states to target states
+  - [ ] Hierarchical task analysis add current states to target states
   
   - [ ] popup gatekeeper interface: lent successfully / error **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] gatekeeper interface: more labels for each result. **CORRECTIONS IN MS3 PROTOTYPE**
+  - [ ] gatekeeper interface: more labels for each result.
   
   - [ ] gatekeeper interface: change time since lent to time till return deadline / overdue time
-        **CORRECTIONS IN MS3 PROTOTYPE**
   
   - [ ] gatekeeper interface: warning popup if lender has transponder overdue to the return deadline
-        **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [x] gatekeeper interface: add description
+  - [ ] gatekeeper interface: add description
 
 
 - **Joey:** 
@@ -57,13 +55,13 @@ get all the information from this repo without the need of using Word!**
   
   - [ ] correction of spelling mistakes and grammatical errors (whole document)
   
-  - [ ] professor wireframe: for the first screen instead of the registration screen the login screen 
+  - [x] professor wireframe: for the first screen instead of the registration screen the login screen 
         **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] professor wireframe/interface: state 5 Permission detail view: there should be text labels
+  - [x] professor wireframe/interface: state 5 Permission detail view: there should be text labels
         containing data instead of text input fields **CORRECTIONS IN MS3 PROTOTYPE** 
 
-  - [ ] wireframes/interfaces: add description
+  - [x] wireframes/interfaces: add description
 
 ## ms3
 
