@@ -1,0 +1,84 @@
+\documentclass[dvisvgm]{standalone}
+
+% Graphiken
+\usepackage{tikz}
+
+% TikZ Bibliotheken
+\usetikzlibrary{
+    arrows,
+    arrows.meta,
+    decorations,
+    backgrounds,
+    positioning,
+    fit,
+    petri,
+    shadows,
+    datavisualization.formats.functions,
+    calc,
+    shapes,
+    shapes.multipart
+}
+
+\begin{document}
+\textcolor{white}{workaround}
+\begin{tikzpicture}[sibling distance=3cm, level distance=8cm]
+
+  \node[
+    draw,
+    text width=2cm,
+    minimum height=3cm
+  ] at (0,-1)
+  {5. ask for permission}
+    % 5.1. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {5.1. send E-Mail to the person in charge of the room}
+    }
+    % }}}
+    % 5.2. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {5.2. ask person in charge of the room in person}
+    }
+    % }}}
+    % 5.3. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {5.3. get response}
+        % 5.3.1. {{{
+        child {
+          node[
+            draw,
+            text width=2cm,
+            minimum height=3cm
+          ]
+          {5.5.1. get permission}
+        }
+        % }}}
+        % 5.3.2. {{{
+        child {
+          node[
+            draw,
+            text width=2cm,
+            minimum height=3cm
+          ]
+          {5.3.2. don't get permission}
+        }
+        % }}}
+    };
+    % }}}
+
+\end{tikzpicture}
+\end{document}

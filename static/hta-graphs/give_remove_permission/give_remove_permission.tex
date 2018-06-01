@@ -21,12 +21,12 @@
 
 \begin{document}
 \textcolor{white}{workaround}
-\begin{tikzpicture}[sibling distance=3cm, level distance=8cm]
+\begin{tikzpicture}[sibling distance=3cm, level distance=10cm]
 
   \node[
     draw,
     text width=2cm,
-    minimum height=3cm
+    minimum height=4cm
   ] at (0,-1)
   {1. give/remove permission}
     % 1.1. {{{
@@ -34,9 +34,9 @@
       node[
         draw,
         text width=2cm,
-        minimum height=3cm
+        minimum height=4cm
       ]
-      {1.1. open system's management-tool in webbrowser}
+      {1.1. open system's management mobile app}
     }
     % }}}
     % 1.2. {{{
@@ -44,7 +44,7 @@
       node[
         draw,
         text width=2cm,
-        minimum height=3cm
+        minimum height=4cm
       ]
       {1.2. login}
     }
@@ -54,9 +54,9 @@
       node[
         draw,
         text width=2cm,
-        minimum height=3cm
+        minimum height=4cm
       ]
-      {1.3. search transponder's number or room number}
+      {1.3. select room/trans\-ponder and search for lender}
     }
     % }}}
     % 1.4. {{{
@@ -64,29 +64,10 @@
       node[
         draw,
         text width=2cm,
-        minimum height=3cm
+        minimum height=4cm
       ]
-      {1.4. give/remove permission}
-        % 1.4.1. {{{
-        child {
-          node[
-            draw,
-            text width=2cm,
-            minimum height=3cm
-          ]
-          {1.4.1. make entry specifiing lender's matrikelnumber and name}
-        }
-        % }}}
-        % 1.4.2. {{{
-        child {
-          node[
-            draw,
-            text width=2cm,
-            minimum height=3cm
-          ]
-          {1.4.2. remove entry with lender's information}
-        }
-        % }}}
+      {1.4. look at open permission requests (created by lender in task 5.
+        ask for permission)}
     }
     % }}}
     % 1.5. {{{
@@ -94,9 +75,50 @@
       node[
         draw,
         text width=2cm,
-        minimum height=3cm
+        minimum height=4cm
       ]
-      {1.5. confirm update}
+      {1.5. search for transponder's number, room number or lender in
+        granted permissions}
+    }
+    % }}}
+    % 1.6. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=4cm
+      ]
+      {1.6. give/remove permission}
+        % 1.6.1. {{{
+        child {
+          node[
+            draw,
+            text width=2cm,
+            minimum height=4cm
+          ]
+          {1.6.1. make entry specifiing the lender and a expiring date}
+        }
+        % }}}
+        % 1.6.2. {{{
+        child {
+          node[
+            draw,
+            text width=2cm,
+            minimum height=4cm
+          ]
+          {1.6.2. remove entry with lender's information}
+        }
+        % }}}
+    }
+    % }}}
+    % 1.7. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=4cm
+      ]
+      {1.7. confirm update}
     };
     % }}}
 

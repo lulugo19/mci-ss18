@@ -1,0 +1,124 @@
+\documentclass[dvisvgm]{standalone}
+
+% Graphiken
+\usepackage{tikz}
+
+% TikZ Bibliotheken
+\usetikzlibrary{
+    arrows,
+    arrows.meta,
+    decorations,
+    backgrounds,
+    positioning,
+    fit,
+    petri,
+    shadows,
+    datavisualization.formats.functions,
+    calc,
+    shapes,
+    shapes.multipart
+}
+
+\begin{document}
+\textcolor{white}{workaround}
+\begin{tikzpicture}[sibling distance=3cm, level distance=12cm]
+
+  \node[
+    draw,
+    text width=2cm,
+    minimum height=3cm
+  ] at (0,-1)
+  {2. verify lender's permission}
+    % 2.1. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.1. let lender specify transponder's number or room number}
+    }
+    % }}}
+    % 2.2. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.2. search paper sheets for transponder's number or room number}
+    }
+    % }}}
+    % 2.3. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.3. physically check if transponder is currently available}
+    }
+    % }}}
+    % 2.4. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.4. verify lender's authentication}
+      % 2.4.1. {{{
+      child {
+        node[
+          draw,
+          text width=2cm,
+          minimum height=3cm
+        ]
+        {2.4.1. check entries for lender's matrikelnumber}
+      }
+      % }}}
+      % 2.4.2. {{{
+      child {
+        node[
+          draw,
+          text width=2cm,
+          minimum height=3cm
+        ]
+        {2.4.2. check entries for lender's name and verify matrikelnumber}
+      }
+      % }}}
+    }
+    % }}}
+    % 2.5. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.5. reject lender}
+    }
+    % }}}
+    % 2.6. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.6. let lender sign for transponder}
+    }
+    % }}}
+    % 2.7. {{{
+    child {
+      node[
+        draw,
+        text width=2cm,
+        minimum height=3cm
+      ]
+      {2.7. give transponder to lender}
+    };
+    % }}}
+
+\end{tikzpicture}
+\end{document}

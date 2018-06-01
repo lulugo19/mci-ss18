@@ -9,82 +9,72 @@ get all the information from this repo without the need of using Word!**
 
 ## todo
 
+**current phase: correct ms2**
+
+**Deadline: 06.06.18**
+
 - **Erik:** 
 
-  - [x] Stakeholder analysis
-
-  - [ ] corrections ms1 
+  - [ ] add steakholder interview in the appendix
 
 - **Lukas:** 
-
-  - [x] User profiles 
   
-  - [x] Personas 
-  
-  - [x] User stories
+  - [ ] rework user stories (Ist-Zustand, no references to the system and no technical limitations)
 
-  - [ ] corrections ms1
+  - [ ] wireframe descriptions and reason design decisions
+  
+  - [ ] add reference to the videos
+  
+  - [ ] finish results of paperprototyping
+  
 
 - **Jonas:** 
 
-  - [x] Top level user tasks 
+  - [ ] Hierarchical task analysis add current states to target states
   
-  - [x] Hierarchical task analysis
+  - [ ] popup gatekeeper interface: lent successfully / error **CORRECTIONS IN MS3 PROTOTYPE**
+  
+  - [ ] gatekeeper interface: more labels for each result.
+  
+  - [ ] gatekeeper interface: change time since lent to time till return deadline / overdue time
+  
+  - [ ] gatekeeper interface: warning popup if lender has transponder overdue to the return deadline
+  
+  - [ ] gatekeeper interface: add description
 
-  - [x] corrections ms1
 
 - **Joey:** 
 
-  - [x] Story board
+  - [ ] Storyboard: add missing HTAs (target-state)
 
-  - [ ] corrections ms1
+  - [ ] Story board: add explanation for each story board and conclusion
+
+  - [ ] Paperprototype: viedos to YouTube and link in the document instead of picture
 
 - **Hamza:**
-
-  - [x] correction of spelling mistakes and grammatical errors
   
-  - [x] assemble Word document from Markdown/static files
+  - [ ] correction of spelling mistakes and grammatical errors (whole document)
+  
+  - [x] professor wireframe: for the first screen instead of the registration screen the login screen 
+        **CORRECTIONS IN MS3 PROTOTYPE**
+  
+  - [x] professor wireframe/interface: state 5 Permission detail view: there should be text labels
+        containing data instead of text input fields **CORRECTIONS IN MS3 PROTOTYPE** 
 
-## ms2
+  - [x] wireframes/interfaces: add description
 
-### corrections ms1
+## ms3
 
-- [ ] **Nutzermodellierung:** add reference to interview and it's context
+**date of delivery: 25.07.2018**
 
-- [ ] **All:** description for each topic describing what it is, it's context and what we
-      want to achieve with it (bevore the content)
+- [ ] **All:** check for inconsitencies 
 
-- [ ] **All:** conclusion for each topic what information we really gained from it
+- [ ] **All:** correct ms2 (current phase)
 
-- [ ] **All:** **WHY!!!** discribe everything
+- [ ] **All:** implement prototype (next phase, *but can already start*)
 
-- [ ] **Stakeholder Analysis:** more information about the influence of each stakeholder
-
-- [ ] **Stakeholder Analysis/User Profiles:** antiuser staff from headquarter (?),
-    students/profs/externs -> lenders
-
-- [ ] **Personas:** more inforation about the influence of each persona and what their goals are
-
-- [ ] **User Stories:** more user stories (> 20)
-
-- [x] **Top Level User Tasks:** every user story should be possible within the top level user tasks
-
-- [x] **Hierarchical Task Analysis:** as graph, explanation about why NFC
-
-- [ ] **HTA/Storyboard:** description of each HTA/story
-
-## ms1
-
-### [Stakeholder analysis](https://github.com/lulugo19/mci-ss18/blob/master/ms1/Steakholderanalysis.md)
-
-### [User Profiles](https://github.com/lulugo19/mci-ss18/blob/master/ms1/UserProfiles.md)
-
-### [Personas](https://github.com/lulugo19/mci-ss18/blob/master/ms1/Personas.md)
-
-### [User stories](https://github.com/lulugo19/mci-ss18/blob/master/ms1/UserStories.md)
-
-### [Top level user tasks](https://github.com/lulugo19/mci-ss18/blob/master/ms1/top_level_user_tasks.md)
-
-### [Hierarchical task analysis](https://github.com/lulugo19/mci-ss18/blob/master/ms1/hierarchical_task_analysis.md)
-
-### Story board
+- [ ] **All:** prototype should contain corrections from the milestone appointment (marked in this
+               document with **CORRECTIONS IN MS3 PROTOTYPE**) and the info we gained from the 
+               videos from the paperprototype. That means our wireframes should not be corrected,
+               instead we should do the corrections directly in the prototype.
+               
