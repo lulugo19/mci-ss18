@@ -55,13 +55,13 @@ get all the information from this repo without the need of using Word!**
   
   - [ ] correction of spelling mistakes and grammatical errors (whole document)
   
-  - [ ] professor wireframe: for the first screen instead of the registration screen the login screen 
+  - [x] professor wireframe: for the first screen instead of the registration screen the login screen 
         **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] professor wireframe/interface: state 5 Permission detail view: there should be text labels
+  - [x] professor wireframe/interface: state 5 Permission detail view: there should be text labels
         containing data instead of text input fields **CORRECTIONS IN MS3 PROTOTYPE** 
 
-  - [ ] wireframes/interfaces: add description
+  - [x] wireframes/interfaces: add description
 
 ## ms3
 
