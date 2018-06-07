@@ -10,11 +10,11 @@ Story possible to accomplish.
 
 ## Top level user tasks
 
-  - lend transponder
+  - borrow transponder
   
   - give/remove permission
   
-  - verify lender's permission
+  - verify borrower's permission
   
   - check for available transponder
   
