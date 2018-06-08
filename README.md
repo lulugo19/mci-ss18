@@ -17,30 +17,35 @@ get all the information from this repo without the need of using Word!**
 
   - [ ] add steakholder interview in the appendix
 
+  - [ ] lender -> borrower
+
 - **Lukas:** 
   
-  - [ ] rework user stories (Ist-Zustand, no references to the system and no technical limitations)
+  - [x] rework user stories (Ist-Zustand, no references to the system and no technical limitations)
 
-  - [ ] wireframe descriptions and reason design decisions
+  - [x] wireframe descriptions and reason design decisions
   
-  - [ ] add reference to the videos
+  - [x] add reference to the videos
   
   - [ ] finish results of paperprototyping
   
+  - [ ] lender -> borrower
 
 - **Jonas:** 
 
-  - [ ] Hierarchical task analysis add current states to target states
+  - [x] Hierarchical task analysis add current states to target states
   
   - [ ] popup gatekeeper interface: lent successfully / error **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] gatekeeper interface: more labels for each result.
+  - [ ] gatekeeper interface: more labels for each result. **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] gatekeeper interface: change time since lent to time till return deadline / overdue time
+  - [ ] gatekeeper interface: change time since lent to time till return deadline / overdue time **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] gatekeeper interface: warning popup if lender has transponder overdue to the return deadline
+  - [ ] gatekeeper interface: warning popup if lender has transponder overdue to the return deadline **CORRECTIONS IN MS3 PROTOTYPE**
   
-  - [ ] gatekeeper interface: add description
+  - [x] gatekeeper interface: add description
+  
+  - [x] lender -> borrower
 
 
 - **Joey:** 
@@ -50,6 +55,8 @@ get all the information from this repo without the need of using Word!**
   - [ ] Story board: add explanation for each story board and conclusion
 
   - [ ] Paperprototype: viedos to YouTube and link in the document instead of picture
+  
+  - [ ] lender -> borrower
 
 - **Hamza:**
   
@@ -62,6 +69,8 @@ get all the information from this repo without the need of using Word!**
         containing data instead of text input fields **CORRECTIONS IN MS3 PROTOTYPE** 
 
   - [x] wireframes/interfaces: add description
+  
+  - [ ] lender -> borrower
 
 ## ms3
 
