@@ -21,11 +21,11 @@ get all the information from this repo without the need of using Word!**
 
 - **Lukas:** 
   
-  - [ ] rework user stories (Ist-Zustand, no references to the system and no technical limitations)
+  - [x] rework user stories (Ist-Zustand, no references to the system and no technical limitations)
 
-  - [ ] wireframe descriptions and reason design decisions
+  - [x] wireframe descriptions and reason design decisions
   
-  - [ ] add reference to the videos
+  - [x] add reference to the videos
   
   - [ ] finish results of paperprototyping
   
