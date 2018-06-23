@@ -1,0 +1,122 @@
+<div id="popups">
+  <div id="popup-ret-transp">
+    <i (click)="this._reset()" class="fas fa-times"></i>
+    <h1>
+      Borrower has to return following
+      transponder(s) before lending a new one!
+    </h1>
+    <div *ngFor="let key of this.overdueTransp">
+      {{ key.id }} - {{ key.opens }}
+      <!-- button for testing -->
+      <button (click)="this._giveBackTransponder(key.id)">
+      </button>
+    </div>
+  </div>
+  <div id="popup-sign">
+    <i (click)="this._reset()" class="fas fa-times"></i>
+    <i class="fas fa-pencil-alt"></i>
+    <h1>
+      Borrower has to sign!
+    </h1>
+    <div>
+      <!-- button for testing -->
+      <button (click)="this._sign()"></button>
+    </div>
+  </div>
+  <div id="popup-lend">
+    <i (click)="this._reset()" class="fas fa-times"></i>
+    <i class="fas fa-check"></i>
+    <h1>
+      Lending successful!
+    </h1>
+  </div>
+</div>
+
+<div id="gc" class="grid-container">
+
+  <nav class="grid-menu">
+    <a routerLinkActive="active" routerLink=""
+      class="curlk">Lend
+    </a>
+    <a routerLinkActive="active" routerLink="/transponder">
+      Transponders
+    </a>
+    <a routerLinkActive="active" routerLink="/"
+      id="logout">
+      Logout
+    </a>
+
+    <!-- button for testing -->
+    <button (click)="this._trg_sign_pop()"></button>
+
+  </nav>
+
+  <div>
+    <h1>Lend transponder</h1>
+  </div>
+
+  <form class="grid-input" autocomplete="off">
+    <div id="autocomp">
+      <input type="text" #borrower id="borrower"
+        (keyup)="this?._search(borrower.value)"
+        placeholder="Borrower Name/Matrikelnumber"
+      />
+      <div>
+        <p *ngFor="let match of this.matches"
+          (click)="this._setBor(match.data,borrower)"
+        >
+          <span *ngFor="let chr of match.iter">
+            <span style="color:black"
+              *ngIf="match.input.includes(chr); else nm">
+              {{ chr }}
+            </span>
+            <ng-template #nm>
+              {{ chr }}
+            </ng-template>
+          </span>
+        </p>
+      </div>
+    </div>
+    <input type="text" #rtnr id="rtnr"
+      (keyup)="this._filterKeys(rtnr.value)"
+      placeholder="Room/Transponder Nr."/>
+  </form>
+
+  <div class="grid-matches-container">
+
+    <div class="grid-matches">
+      <h2></h2>
+      <h2>Transponder Nr.</h2>
+      <h2>Room(s)</h2>
+      <h2>Borrower</h2>
+    </div>
+
+    <div *ngIf="!this.search; else nokeys"
+      class="match-err">
+      Enter valid borrower first
+      <i class="fas fa-meh"></i>
+    </div>
+
+    <div #nokeys class="match-err"
+      *ngIf="this.noKeys && this.search; else mtch">
+      No Permission
+      <i class="fas fa-flushed"></i>
+    </div>
+
+    <div #mtch class="grid-matches"
+      *ngFor="let key of this.filteredKeys">
+      <div *ngIf="!key.lend; else nlndicn">
+        <i class="fas fa-check"></i>
+      </div>
+      <ng-template #nlndicn>
+        <div><i class="fas fa-times"></i></div>
+      </ng-template>
+      <div>{{ key.id }}</div>
+      <div>{{ key.opens }}</div>
+      <div *ngIf="key.lend; else nlnd">{{ key.lend }}</div>
+      <ng-template #nlnd><div>-</div></ng-template>
+    </div>
+
+  </div>
+
+</div>

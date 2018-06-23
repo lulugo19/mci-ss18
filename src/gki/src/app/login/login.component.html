@@ -1,0 +1,51 @@
+<div class="modal-custom" *ngIf="this.redirect">
+  <div class="modal-header">
+    <h5 class="modal-title">
+      Du wirst automatisch weitergeleitet
+    </h5>
+  </div>
+  <div class="modal-body">
+    <div class="sk-fading-circle">
+      <div class="sk-circle1 sk-circle"></div>
+      <div class="sk-circle2 sk-circle"></div>
+      <div class="sk-circle3 sk-circle"></div>
+      <div class="sk-circle4 sk-circle"></div>
+      <div class="sk-circle5 sk-circle"></div>
+      <div class="sk-circle6 sk-circle"></div>
+      <div class="sk-circle7 sk-circle"></div>
+      <div class="sk-circle8 sk-circle"></div>
+      <div class="sk-circle9 sk-circle"></div>
+      <div class="sk-circle10 sk-circle"></div>
+      <div class="sk-circle11 sk-circle"></div>
+      <div class="sk-circle12 sk-circle"></div>
+    </div>
+  </div>
+</div>
+<div class = "container">
+  <div class="wrapper">
+    <div class="form-signin">
+      <form>
+        <h5 class="form-signin-heading">
+          Login
+        </h5>
+        <div class="form-group">
+          <input type="email" class="m-1 form-control"
+            placeholder="E-Mail" #mail
+          />
+          <input type="password" class="m-1 form-control"
+            placeholder="Passwort" #pw
+          />
+        </div>
+      </form>
+      <button
+        id="login-btn"
+        (click)="this.auth(mail.value, pw.value)"
+        class="btn btn-lg btn-primary btn-block m-1">
+        Login
+      </button>
+      <div class="alert alert-danger" *ngIf="!this.valid">
+        Invalid E-Mail or Password
+      </div>
+    </div>
+  </div>
+</div>

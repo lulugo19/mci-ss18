@@ -1,0 +1,11 @@
+.fa-times, .fa-exclamation {
+  color:red;
+}
+.fa-check {
+  color:green;
+}
+.curlk {
+  color:white!important;
+  background-color:#4E788F!important;
+  border-left:3px solid #DFDC16!important;
+}

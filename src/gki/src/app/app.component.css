@@ -1,0 +1,69 @@
+.float-right {
+    margin: 0px;
+    /*width:calc(100% - 200px);*/
+    background-color:rgb(236,238,243);
+    /*padding:10px 10px 0px;*/
+    min-height:1000px;
+    /*padding-top:120px;*/
+
+}
+.header {
+    background-color:white;
+    /*padding:5px 5px 5px 200px;*/
+    min-height:40px;
+    color:rgb(201, 202, 206);
+    text-align:right;
+    font-size:1.5em!important;
+}
+header button i{
+    color:rgb(201, 202, 206)!important;
+}
+nav {
+    float: left;
+    width: 200px;
+    height: 100%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,45484d+98 */
+background:#1C2B33;
+    display: block;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left:0px;
+}
+.brand {
+    float:left;
+    font-weight:bold;
+    padding-left:20px;
+}
+.brand span {
+    color:#DFDC16;
+}
+nav a {
+    display:block;
+    color:rgb(236,238,243);
+    padding:15px;
+    border-left:3px solid #1C2B33;
+}
+nav a:hover {
+    color:white!important;
+    border-left:3px solid #DFDC16
+}
+nav a.active {
+    color:white!important;
+    background-color:#4E788F!important;
+    border-left:3px solid #DFDC16
+}
+nav a i {
+    padding-right:20px;
+}
+nav div {
+    background-color:#DFDC16;
+    padding:15px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    text-transform:uppercase;
+    font-weight:bold;
+    letter-spacing:1px;
+    height:50px;
+}

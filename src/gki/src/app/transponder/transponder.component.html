@@ -1,0 +1,56 @@
+<div id="gc" class="grid-container">
+
+  <nav class="grid-menu">
+    <a routerLinkActive="active" routerLink="/lend">
+      Lend
+    </a>
+    <a routerLinkActive="active" routerLink=""
+      class="curlk">
+      Transponders
+    </a>
+    <a routerLinkActive="active" routerLink="/"id="logout">
+      Logout
+    </a>
+  </nav>
+
+  <div>
+    <h1>Lent transponder overview</h1>
+  </div>
+
+  <form class="grid-input" autocomplete="off">
+    <input type="text" #rtnr id="rtnr"
+      (keyup)="this._filterKeys(rtnr.value)"
+      placeholder="Transponder Nr. / Borrower"/>
+  </form>
+
+  <div class="grid-matches-container">
+
+    <div class="grid-matches">
+      <h2></h2>
+      <h2>Transponder Nr.</h2>
+      <h2>Borrower</h2>
+      <h2>Time</h2>
+    </div>
+
+    <div #nokeys class="nothing-found"
+      *ngIf="this.filteredKeys.length === 0; else $keys">
+      Nothing found
+      <i class="fas fa-flushed"></i>
+    </div>
+
+    <div #$keys class="grid-matches"
+      *ngFor="let key of this.filteredKeys">
+      <div *ngIf="key.overdue; else notoverdue">
+        <i class="fas fa-exclamation"></i>
+      </div>
+      <ng-template #notoverdue>
+        <div></div>
+      </ng-template>
+      <div>{{ key.id }}</div>
+      <div>{{ key.lend }}</div>
+      <div>{{ key.time }}</div>
+    </div>
+
+  </div>
+
+</div>
