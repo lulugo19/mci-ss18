@@ -72,7 +72,10 @@ export class LendComponent implements OnInit {
   }
 
   _giveBackTransponder(id) {
-    this.keys.map(x => if (x.id === id) x.lend = false )
+    this.keys = this.keys.map(x => {
+      if(x.id === id) { x.lend = false }
+      return x
+    })
     this.overdueTransponders()
   }
 

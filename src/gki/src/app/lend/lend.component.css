@@ -13,6 +13,7 @@
   bottom:50px;
   z-index:999;
   background-color:#1C2B33;
+  border: 1px solid #DFDC16;
 }
 #popup-ret-transp > h1 {
   color:#FF0500;
@@ -26,6 +27,7 @@
 #popups > div > i.fa-times {
   font-size: 30px;
   color: rgb(201,202,206);
+  margin: 10px;
 }
 #popups > div > i.fa-times:hover {
   cursor:pointer;
