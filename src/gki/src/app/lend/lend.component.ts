@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer } from '@angular/core';
 
 import { borrowers, keys } from '../../../dat/borrowers';
 
@@ -29,7 +29,21 @@ export class LendComponent implements OnInit {
   borrower      = null
   overdueTransp = []
 
-  constructor() { }
+  constructor(renderer: Renderer) {
+    renderer.listenGlobal(
+      'document',
+      'keydown',
+      (event) => {
+        if(event.key === "$") {
+          this._trg_sign_pop()
+        } else if (event.key === "&") {
+          this._sign()
+        } else if (event.key === "?") {
+          this._giveBackTransponder('9')
+        }
+      }
+    )
+  }
 
   ngOnInit() {}
 
@@ -68,6 +82,8 @@ export class LendComponent implements OnInit {
     document.getElementById('popup-ret-transp').style
       .display = 'none'
     document.getElementById('popup-lend').style.display =
+      'none'
+    document.getElementById('popup-sign').style.display =
       'none'
   }
 

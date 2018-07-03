@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer} from '@angular/core';
 import { Router } from '@angular/router';
 
 import { gkCredentials } from '../../../dat/gkcredentials';
@@ -15,7 +15,16 @@ export class LoginComponent implements OnInit {
 
   constructor(
     private router: Router,
-  ) {}
+    private renderer: Renderer
+  ) {
+    renderer.listenGlobal('document', 'keydown', (event)=>{
+      if(event.keyCode === 13) {
+        let mail = document.getElementById('mail').value
+        let pw   = document.getElementById('pw').value
+        this.auth(mail, pw)
+      }
+    }
+  }
 
   ngOnInit() {}
 
